@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- These are the options displayed in the supplier drop-down Spinner -->
+    <string-array name="array_supplier_options">
+        <item>@string/supplier_unknown</item>
+        <item>@string/supplier_1</item>
+        <item>@string/supplier_2</item>
+        <item>@string/supplier_3</item>
+
+    </string-array>
+    <!-- These are the options displayed in the quantity  drop-down Spinner to decide if it will be Kg or Liter Gram, miligram, mililiter-->
+    <string-array name="array_quantity_options">
+        <item> </item>
+        <item>@string/KG</item>
+        <item>@string/Liters</item>
+        <item>@string/Grams</item>
+        <item>@string/Milligram</item>
+
+    </string-array>
+
+
+</resources>

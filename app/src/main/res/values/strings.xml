@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <!-- Title for the activity to add a new Product [CHAR LIMIT=20] -->
+    <string name="add_new_product">Add New Product</string>
+    <string name="edit_product">Edit product</string>
+    <string name ="insert_product">Insert new product</string>
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+    <string name="action_delete_all_entries">Delete All</string>
+
+    <!-- Label for editor menu option to save pet and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Label for price information in the editor [CHAR LIMIT=30] -->
+    <string name="category_supplier">Supplier</string>
+
+    <!-- Label for quantity information in the editor [CHAR LIMIT=30] -->
+    <string name="category_quantity">Quantity</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_name">Name</string>
+
+    <!-- Text hint for breed field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_price">Price</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_weight">Weight</string>
+
+    <!-- Units for weight of the pet (kilograms) [CHAR LIMIT=5] -->
+    <string name="unit_product_weight_kg">kg</string>
+    <!-- The names of uppliers in the supllier dropdown spinner -->
+    <string name ="supplier_1">Supplier 1</string>
+    <string name ="supplier_2">Supplier 2</string>
+    <string name ="supplier_3">Supplier 3</string>
+    <string name ="supplier_unknown">Supplier Unknown</string>
+    <string name="products_saved">Product Saved Successfully</string>
+    <string name="products_not_saved">Product save failed </string>
+    <string name="product_update">Products updates </string>
+    <string name="products_update_failed">Product update failed </string>
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+    <!-- Toast message in editor when current pet was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_pet_successful">Product deleted</string>
+    <!-- Dialog message to ask the user to confirm deleting the current pet [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this product?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current pet [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current pet [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_pet_failed">delete failed</string>
+
+    <!-- these are neasurments for the quantity drop down-->
+    <string name="KG">Kg</string>
+    <string name="Liters">Liters</string>
+    <string name="Grams">grams</string>
+    <string name="Milligram">Milligram</string>
+    <string name="Milliliter">Milliliter</string>
+
+
+</resources>

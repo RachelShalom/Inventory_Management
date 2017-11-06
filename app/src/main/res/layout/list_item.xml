@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBackgroud"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/list_product_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"></ImageView>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16sp"
+        android:layout_marginStart="16sp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Product name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:id="@+id/product_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2sp"
+                android:fontFamily="sans-serif"
+                android:text="10"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/weight_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kg"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:paddingBottom="16sp"
+                android:text="Price: "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/price_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:paddingBottom="16sp"
+                android:text="10"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/plus_button"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:paddingBottom="8dp"
+            android:focusable="false"
+            android:background="#FCE4EC"
+            android:text="+"
+            android:textSize="16dp"
+            android:textColor="#757575"/>
+        <Button
+            android:id="@+id/minus_button"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:focusable="false"
+            android:background="#FCE4EC"
+            android:text="-"
+            android:textSize="18dp"
+            android:textColor="#757575"/>
+
+    </LinearLayout>
+</LinearLayout>
